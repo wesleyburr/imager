@@ -41,6 +41,11 @@ To build under Linux make sure you have the headers for libX11 and libfftw3 (opt
 
 	sudo apt-get install libfftw3-dev libX11-dev libtiff-dev
 
+On Fedora (25 and 26), you may also need
+
+	sudo dnf install libXt-devel
+
+in order to get Intrinsic.h, which is required for Cairo.
 
 ### External dependencies
 
